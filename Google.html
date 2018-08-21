@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Google Clone</title>
+		<link rel="stylesheet" href="styles.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+	</head>
+	
+	<body>
+		<header>
+			<ul id="nav-right">
+				<li><a href="http://www.gmail.com">Gmail</a></li>
+				<li><a href="https://www.google.com/imghp?hl=en&tab=wi&authuser=0">Images</a></li>
+				<li><button id="sign-in"><i class="fas fa-user-circle"></i></button></li>		
+			</ul>
+
+			<script type="text/javascript">
+				function focusIt()
+				{
+					var my_search_box = document.getElementById("search-box");
+					my_search_box.focus();
+				}
+				onload=focusIt;
+			</script>
+		</header>
+	
+		<div id="content">
+			<div id="logo">
+				<img src="imgs/logo.png" alt="Google logo" width="350"/>
+			</div>
+			<div id="search">
+				<input id="search-box" type="text" name="search"/>
+			</div>
+
+			<div id="search-buttons">
+				<input type="button" class="button" name="Google" value="Google Search"/>
+				<input type="button" class="button" name="Google" value="I'm Feeling Lucky'"/>
+			</div>
+		</div>
+
+		<footer>
+			<ul id="footer-left">
+				<li><a href="https://adwords.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1#?modal_active=none">Advertising</a></li>
+				<li><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">Business</a></li>
+				<li><a href="https://www.google.com/intl/en/about/?fg=1&utm_source=google.com&utm_medium=referral&utm_campaign=hp-header">About</a></li>
+			</ul>
+
+
+			<ul id="footer-right">
+				<li><a href="https://policies.google.com/privacy?hl=en&gl=us">Privacy</a></li>
+				<li><a href="https://policies.google.com/terms?hl=en&gl=us">Terms</a></li>
+				<li><a href="">Settings</a></li>
+			</ul>
+		</footer>
+
+	</body>
+</html>
